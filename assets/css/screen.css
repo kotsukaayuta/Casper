@@ -18,6 +18,7 @@
     11. Media Queries (Tablet)
     12. Media Queries (Mobile)
     13. Animations
+    14. Social (Custom)
 
 */
 
@@ -1173,11 +1174,18 @@ body:not(.post-template) .post-title {
    to be flexible at smaller screen sizes while the share
    links remain at a fixed width the whole time */
 .post-footer .share {
+  max-height: 200px;
+  padding-top: 20px;
+  text-align: left;
+}
+/*
+.post-footer .share {
     position: absolute;
     top: 6rem;
     right: 0;
     width: 140px;
 }
+*/
 
 .post-footer .share a {
     font-size: 1.8rem;
@@ -2064,6 +2072,24 @@ body:not(.post-template) .post-title {
     }
 }
 
+/* ==========================================================================
+ *    14. Social (Custom)
+ * ========================================================================== */
+.post-header .share {
+  max-height: 200px;
+  padding-top: 20px;
+}
+
+.share .twitter, .share .facebook, .share .hatena, .share .pocket, .share .google {
+  display: inline-block;
+  vertical-align: baseline;
+  line-height: 0.75em;
+  margin-right: 5px;
+}
+
+.share iframe {
+  margin: 0px !important;
+}
 
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
