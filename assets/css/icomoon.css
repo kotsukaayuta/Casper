@@ -24,6 +24,18 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.sns-icon {
+    position:absolute;
+    font-size: 1.8rem;
+}
+
+.sns-icon a:hover {
+	background-color:#FFF;
+    filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
 .icomoon-icon-feedly:before {
 	content: "\e600";
 }
