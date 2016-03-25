@@ -24,16 +24,40 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.sns-icon {
-    position:absolute;
-    font-size: 1.8rem;
+.icomoon-icon-feedly:hover {
+    color: #6CC655;
 }
-
-.sns-icon a:hover {
-	background-color:#FFF;
-    filter:alpha(opacity=50);
-    -moz-opacity: 0.5;
-    opacity: 0.5;
+ 
+.icomoon-icon-facebook:hover {
+    color: #265a96;
+}
+ 
+.icomoon-icon-twitter:hover {
+    color: #00acec;
+}
+ 
+.icomoon-icon-hatebu:hover {
+    color: #006fbb;
+}
+ 
+.icomoon-icon-pocket:hover {
+    color: #EE4256;
+}
+ 
+.icomoon-icon-googleplus:hover {
+    color: #dd4b39;
+}
+ 
+.icomoon-icon-line:hover {
+    color: #2cbf13;
+}
+ 
+.icomoon-icon-feed:hover {
+    color: #ff9900;
+}
+ 
+.icomoon-icon-youtube:hover {
+    color: #e22d26;
 }
 
 .icomoon-icon-feedly:before {
@@ -42,6 +66,7 @@
 
 .icomoon-icon-hatebu:before {
 	content: "\e601";
+	margin-right: -4px;
 }
 
 .icomoon-icon-line:before {
