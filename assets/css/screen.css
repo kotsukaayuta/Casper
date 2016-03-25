@@ -1173,38 +1173,6 @@ body:not(.post-template) .post-title {
    Doing it like this means it's easier for the author bio
    to be flexible at smaller screen sizes while the share
    links remain at a fixed width the whole time */
-.post-footer .share {
-  max-height: 200px;
-  padding-top: 20px;
-  text-align: left;
-}
-/*
-.post-footer .share {
-    position: absolute;
-    top: 6rem;
-    right: 0;
-    width: 140px;
-}
-*/
-
-.post-footer .share a {
-    font-size: 1.8rem;
-    display: inline-block;
-    margin: 1rem 1.6rem 1.6rem 0;
-    color: #BBC7CC;
-    text-decoration: none;
-}
-
-.post-footer .share .icon-twitter:hover {
-    color: #55acee;
-}
-.post-footer .share .icon-facebook:hover {
-    color: #3b5998;
-}
-.post-footer .share .icon-google-plus:hover {
-    color: #dd4b39;
-}
-
 
 /* ==========================================================================
    6. Author profile
@@ -1942,12 +1910,12 @@ body:not(.post-template) .post-title {
         border-bottom: #EBF2F6 1px dashed;
     }
 
-    .post-footer .share {
+    .post-footer .sns-share {
         position: static;
         width: auto;
     }
 
-    .post-footer .share a {
+    .post-footer .sns-share a {
         margin: 1.4rem 0.8rem 0 0.8rem;
     }
 
@@ -2075,31 +2043,35 @@ body:not(.post-template) .post-title {
 /* ==========================================================================
  *    14. Social (Custom)
  * ========================================================================== */
-.post-header .share {
-  max-height: 200px;
-  padding-top: 20px;
+.sns-share {
+    max-height: 200px;
+    padding-top: 20px;
 }
 
-.share .twitter, .share .facebook, .share .hatena, .share .pocket, .share .google {
-  display: inline-block;
-  vertical-align: baseline;
-  line-height: 0.75em;
-  margin-right: 5px;
+.sns-share .twitter, .sns-share .facebook, .sns-share .hatena, .sns-share .pocket, .sns-share .google {
+    display: inline-block;
+    vertical-align: baseline;
+    line-height: 0.75em;
+    margin-right: 5px;
 }
 
-.share iframe {
-  margin: 0px !important;
+.sns-share iframe {
+    margin: 0px !important;
+}
+
+.post-footer .sns-share .pocket {
+    display: none;
 }
 
 .sns-icon {
-  display: inline-block;
-  margin-left: 7px;
-  padding-left: 12px;
-  border-left: #d5dbde 1px solid;
-  text-transform: uppercase;
-  font-size: 1.8rem;
-  white-space: nowrap;
-  text-decoration: none !important;
+    display: inline-block;
+    margin-left: 7px;
+    padding-left: 12px;
+    border-left: #d5dbde 1px solid;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    white-space: nowrap;
+    text-decoration: none !important;
 }
 
 .sns-icon a:hover {
